@@ -7,6 +7,7 @@ const { fetchBuffer } = require('./lib/myfunc');
 const ytdl = require('./lib/ytdl2');
 const fs = require('fs');
 const fetch = require('node-fetch');
+const autostatusview = require('./commands/autostatusview');
 
 // Command imports
 const tagAllCommand = require('./commands/tagall');
